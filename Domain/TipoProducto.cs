@@ -1,7 +1,9 @@
+using System;
+
 public class TipoProducto
 {
     //ATRIBUTOS
-    private String nombre {get; set;};
+    private String nombre {get; set;}
 
     //CONSTRUCTOR
     public TipoProducto(){}

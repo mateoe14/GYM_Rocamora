@@ -1,21 +1,24 @@
+using System;
+using System.Collections.Generic;
+
 public class Socio
 {
   //ATRIBUTOS
-  private int dni {get; set;};
-  private String nombre {get; set;};
-  private String apellido {get; set;};
-  private Date fechaNac {get; set;};
-  private String domicilio {get; set;};
-  private int telefono {get; set;};
-  private String mail {get; set;};
-  private List<FichaMedica> fichaMedica {get; set;};
-  private List<Cuota> cuotas {get; set;};
-  private List<Rutina> rutinas {get; set;};
+  private int dni {get; set;}
+  private String nombre {get; set;}
+  private String apellido {get; set;}
+  private DateTime fechaNac {get; set;}
+  private String domicilio {get; set;}
+  private int telefono {get; set;}
+  private String mail {get; set;}
+  private List<FichaMedica> fichaMedica {get; set;}
+  private List<Cuota> cuotas {get; set;}
+  private List<Rutina> rutinas {get; set;}
 
 //CONSTRUCTORES
   public Socio(){}
 
-  public Socio(int pDni, String pNombre, String pApellido, Date pFechaNac, String pDomicilio, int pTelefono, String pMail){
+  public Socio(int pDni, String pNombre, String pApellido, DateTime pFechaNac, String pDomicilio, int pTelefono, String pMail){
       this.dni = pDni;
       this.nombre = pNombre;
       this.apellido = pApellido;

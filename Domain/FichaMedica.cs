@@ -1,9 +1,12 @@
+using System;
+using System.Collections.Generic;
+
 public class FichaMedica
 {
    //ATRIBUTOS
-   private Date fechaEntrega;
-   private Float peso;
-   private Float altura;
+   private System.DateTime fechaEntrega;
+   private float peso;
+   private float altura;
    private String grupoSanguineo;
    private Boolean hipertensionArterial;
    private Boolean diabetes;
@@ -20,8 +23,17 @@ public class FichaMedica
    //CONSTRUCTORES
    public FichaMedica(){}
 
-   public FichaMedica(Date fechaEntrega, Float peso, String grupoSanguineo, Boolean hipertensionArterial, Boolean diabetes, Boolean afeccionCardioVascular, Boolean afeccionRespiratoria, Boolean fuma, Boolean alcohol)
+   public FichaMedica(DateTime pFechaEntrega, float pPeso, String pGrupoSanguineo, Boolean pHipertensionArterial, Boolean pDiabetes, Boolean pAfeccionCardioVascular, Boolean pAfeccionRespiratoria, Boolean pFuma, Boolean pAlcohol)
    {
+       this.fechaEntrega = pFechaEntrega;
+       this.peso = pPeso;
+       this.grupoSanguineo = pGrupoSanguineo;
+       this.hipertensionArterial = pHipertensionArterial;
+       this.diabetes = pDiabetes;
+       this.afeccionCardioVascular = pAfeccionCardioVascular;
+       this.afeccionRespiratoria = pAfeccionRespiratoria;
+       this.fuma = pFuma;
+       this.alcohol = pAlcohol;
        
    }
 }

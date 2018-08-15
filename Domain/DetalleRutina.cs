@@ -1,11 +1,13 @@
+using System;
+
 public class DetalleRutina
 {
     //ATRIBUTOS
-    private int dia {get; set;};
-    private String seriesxRepeticiones {get; set;};
-    private String descanso {get; set;};
-    private Musculo musculo {get; set;};
-    
+    private int dia {get; set;}
+    private String seriesxRepeticiones {get; set;}
+    private String descanso {get; set;}
+    private Musculo musculo {get; set;}
+
     //CONSTRUCTOR
     public DetalleRutina(){}
 
@@ -14,6 +16,6 @@ public class DetalleRutina
         this.dia = pDia;
         this.seriesxRepeticiones = pSeriesxRepeticiones;
         this.descanso = pDescanso;
-        this.musculo = pMusculo;        
+        this.musculo = pMusculo;
     }
 }

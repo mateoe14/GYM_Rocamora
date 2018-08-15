@@ -1,7 +1,9 @@
+using System;
+
 public class Medicacion
 {
     //ATRIBUTOS
-    private String nombre {get; set;};
+    private String nombre {get; set;}
 
     //CONSTRUCTOR
     public Medicacion(){}

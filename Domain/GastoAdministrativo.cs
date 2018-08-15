@@ -1,15 +1,17 @@
+using System;
+
 public class GastoAdministrativo
 {
     //ATRIBUTOS
     private int cantidad;
     private String descripcion;
-    private Float precioUnitario;
-    private Date fecha;
+    private float precioUnitario;
+    private DateTime fecha;
 
     //CONSTRUCTOR
     public GastoAdministrativo(){}
 
-    public GastoAdministrativo(int pCantidad, Sring pDescripcion, Float pPrecioUnitario, Date pFecha)
+    public GastoAdministrativo(int pCantidad, String pDescripcion, float pPrecioUnitario, DateTime pFecha)
     {
         this.cantidad = pCantidad;
         this.descripcion = pDescripcion;

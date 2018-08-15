@@ -1,8 +1,11 @@
+using System;
+using System.Collections.Generic;
+
 public class Musculo
 {
     //ATRIBUTOS
-    private String nombre {get; set;};
-    private List<Ejercicio> ejercicios {get; set;};
+    private String nombre {get; set;}
+    private List<Ejercicio> ejercicios {get; set;}
 
     //CONSTRUCTOR
     public Musculo(){}

@@ -1,8 +1,10 @@
+using System;
+
 public class Ejercicio
 {
     //ATRIBUTOS
-    private String nombre {get; set;};
-    private Musculo musculo {get; set;};
+    private String nombre {get; set;}
+    private Musculo musculo {get; set;}
 
     //CONSTRUCTOR
     public Ejercicio(){}

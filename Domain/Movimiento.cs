@@ -1,14 +1,17 @@
+using System;
+using System.Collections.Generic;
+
 public class Movimiento
 {
     //ATRIBUTOS
-    private Date fecha;
+    private DateTime fecha;
     private TipoMovimiento tipo;
     private List<LineaMovimiento> lineasMovimiento;
 
     //CONSTRUCTOR
     public Movimiento(){}
 
-    public Movimiento(Date pFecha, TipoMovimiento pTipo, List<LineaMovimiento> pLineasMovimiento )
+    public Movimiento(DateTime pFecha, TipoMovimiento pTipo, List<LineaMovimiento> pLineasMovimiento )
     {
         this.fecha = pFecha;
         this.tipo = pTipo;

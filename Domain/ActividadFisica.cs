@@ -1,11 +1,13 @@
+using System;
+
 public class ActividadFisica
 {
     //ATRIBUTOS
-    private String nombre {get; set;};
-    private int cantHorasSem {get; set;};
+    private String nombre { get; set;}
+    private int cantHorasSem { get; set;}
 
     //CONSTRUCTOR
-    public ActividadFisica(){}
+    public ActividadFisica() { }
 
     public ActividadFisica(String pNombre, int pCantHorasSem)
     {

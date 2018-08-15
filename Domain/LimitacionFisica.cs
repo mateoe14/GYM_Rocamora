@@ -1,14 +1,16 @@
+using System;
+
 public class LimitacionFisica
 {
     //ATRIBUTOS
-    private String nombre {get; set;};
-    private Date fechaOcurrencia {get; set;};
-    private Date fechaRecuperacion {get; set;};
+    private String nombre {get; set;}
+    private DateTime fechaOcurrencia {get; set;}
+    private DateTime fechaRecuperacion {get; set;}
 
     //CONSTRUCTOR
-    public Operacion(){}
+    public LimitacionFisica(){}
 
-    public Operacion(String pNombre, Date pFechaOcurrencia, Date pFechaRecuperacion)
+    public LimitacionFisica(String pNombre, DateTime pFechaOcurrencia, DateTime pFechaRecuperacion)
     {
         this.nombre = pNombre;
         this.fechaOcurrencia = pFechaOcurrencia;

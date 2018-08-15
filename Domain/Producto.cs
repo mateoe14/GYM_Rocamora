@@ -1,8 +1,10 @@
+using System;
+
 public class Producto
 {
     //ATRIBUTOS
     private String nombre;
-    private Float precio;
+    private float precio;
     private int stock;
     private String descripcion;
     private Boolean activo;
@@ -12,7 +14,7 @@ public class Producto
     //CONSTRUCTOR
     public Producto(){}
 
-    public Producto(String pNombre, Float pPrecio, int pStock, String pDescripcion, Boolean pActivo, int pCodProducto, TipoProducto pTipo)
+    public Producto(String pNombre, float pPrecio, int pStock, String pDescripcion, Boolean pActivo, int pCodProducto, TipoProducto pTipo)
     {
         this.nombre = pNombre;
         this.precio = pPrecio;
