@@ -1,5 +1,6 @@
 using System;
 
+
 public class Producto
 {
     //ATRIBUTOS
