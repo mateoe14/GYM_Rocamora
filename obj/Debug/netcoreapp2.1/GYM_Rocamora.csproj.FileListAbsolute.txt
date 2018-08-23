@@ -6,7 +6,6 @@
 /media/root/Datos1/UTN/4º año/Habilitacion Profesional/GYM_Rocamora/bin/Debug/netcoreapp2.1/GYM_Rocamora.pdb
 /media/root/Datos1/UTN/4º año/Habilitacion Profesional/GYM_Rocamora/bin/Debug/netcoreapp2.1/GYM_Rocamora.Views.dll
 /media/root/Datos1/UTN/4º año/Habilitacion Profesional/GYM_Rocamora/bin/Debug/netcoreapp2.1/GYM_Rocamora.Views.pdb
-/media/root/Datos1/UTN/4º año/Habilitacion Profesional/GYM_Rocamora/obj/Debug/netcoreapp2.1/GYM_Rocamora.csprojAssemblyReference.cache
 /media/root/Datos1/UTN/4º año/Habilitacion Profesional/GYM_Rocamora/obj/Debug/netcoreapp2.1/GYM_Rocamora.csproj.CoreCompileInputs.cache
 /media/root/Datos1/UTN/4º año/Habilitacion Profesional/GYM_Rocamora/obj/Debug/netcoreapp2.1/GYM_Rocamora.RazorAssemblyInfo.cache
 /media/root/Datos1/UTN/4º año/Habilitacion Profesional/GYM_Rocamora/obj/Debug/netcoreapp2.1/GYM_Rocamora.RazorAssemblyInfo.cs
@@ -34,3 +33,4 @@
 /media/root/Datos1/UTN/4º año/Habilitacion Profesional/GYM_Rocamora/obj/Debug/netcoreapp2.1/GYM_Rocamora.dll
 /media/root/Datos1/UTN/4º año/Habilitacion Profesional/GYM_Rocamora/obj/Debug/netcoreapp2.1/GYM_Rocamora.pdb
 /media/root/Datos1/UTN/4º año/Habilitacion Profesional/GYM_Rocamora/obj/Debug/netcoreapp2.1/GYM_Rocamora.csproj.CopyComplete
+/media/root/Datos1/UTN/4º año/Habilitacion Profesional/GYM_Rocamora/obj/Debug/netcoreapp2.1/GYM_Rocamora.csprojResolveAssemblyReference.cache
