@@ -11,6 +11,8 @@ namespace GYM_Rocamora
     {
         List<Socio> getSocios();
 
+		Socio buscarPorNombre(String nombre);
+
 		void guardar(Socio unSocio);
     }
 }

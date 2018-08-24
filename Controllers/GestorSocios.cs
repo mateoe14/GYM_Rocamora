@@ -61,36 +61,16 @@ namespace GYM_Rocamora
 		void ModificarSocio(Socio socio){}
 		void BajaSocio(Socio socio){}
         
-        /*public Socio buscarSocioPorNombre(String nombre){
+        public Socio buscarSocioPorNombre(String nombre){
        
             return this.sociosI.buscarPorNombre(nombre);
-        }*/
+        }
     
         public void guardarSocio(Socio unSocio){
     
 			sociosI.guardar(unSocio);
         
-        }
-    
-        //Para la Tabla de Personajes Agregados vamos a necesitar lo siguiente
-        /*public List<Actor> obtenerActores(){
-    
-        return this.actoresDAO.getActores();
-        }
-    
-        public List<Rol> obtenerRoles(){
-    
-            return this.rolesDAO.getRoles();
-        }
-    
-        public List<Personaje> obtenerPersonajes(){
-    
-            return this.personajesDAO.getPersonajes();
-        }
+        }    
         
-        public void guardarPersonaje (Personaje unPersonaje){
-    
-            this.personajesDAO.guardar(unPersonaje);      
-        }*/
     }
 }

@@ -17,6 +17,23 @@ namespace GYM_Rocamora.Implementation
 			return socios;
 		}
 
+		public Socio buscarPorNombre (String nombre){
+    
+			//Se define el iterador
+            Iterator<Socio> iter = socios.iterator();
+            //Se declara la variable donde se almacena el resultado
+            Socio encontrada = null;
+            //Se recorre la lista
+            while (iter.hasNext()){
+                Socio actual = iter.next();
+                if (actual.getNombre().equalsIgnoreCase(nombre)){
+                encontrada = actual;
+                break;
+                }
+            }
+            return encontrada;
+        }  
+
 		public void guardar(Socio unSocio)
         {
             this.socios.Add(unSocio);
